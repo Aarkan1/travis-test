@@ -10,7 +10,7 @@ class CalculatorTest {
     void addition() {
         var calc = new Calculator();
 
-        assertEquals(10, calc.addition(5, 5), "Answer should be 10");
+        assertEquals(10, calc.addition(3, 5), "Answer should be 10");
     }
 
     @Test
